@@ -2,7 +2,7 @@ const loginBtn = document.getElementById('loginBtn');
 const statusText = document.getElementById('status');
 
 // Connect to WebSocket server
-const socket = new WebSocket('ws://localhost:3000');
+const socket = new WebSocket('ws://192.168.1.100:3000');
 
 // When the socket is open
 socket.addEventListener('open', () => {
